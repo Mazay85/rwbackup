@@ -10,8 +10,8 @@ mkdir -p $INSTALL_DIR
 mkdir -p /opt/backups
 
 # download files
-curl -fsSL https://raw.githubusercontent.com/Mazay85/rwbackup/main/rwbackup.sh -o $INSTALL_DIR/rwbackup.sh
-curl -fsSL https://raw.githubusercontent.com/Mazay85/rwbackup/main/scripts/backup.sh -o $INSTALL_DIR/backup.sh
+curl -fsSL https://raw.githubusercontent.com/Mazay85/remnabackup/main/rwbackup.sh -o $INSTALL_DIR/rwbackup.sh
+curl -fsSL https://raw.githubusercontent.com/Mazay85/remnabackup/main/scripts/backup.sh -o $INSTALL_DIR/backup.sh
 
 chmod +x $INSTALL_DIR/*.sh
 
